@@ -4,34 +4,29 @@ import {ComponentControllerDefinition} from "../index";
 
 export class ExampleController extends AbstractComponentController {
 
-    public static DEFINITION = new ComponentControllerDefinition("example",
-        {},
-        false,
-        false,
-        (component: Component, entity: Entity, data: any) =>
+    public static DEFINITION = new ComponentControllerDefinition(
+        /* Name */ "example",
+        /* Schema */ {},
+        /* Multiple */ false,
+        /* Receive ticks */ false,
+        /* Factory function */ (component: Component, entity: Entity, data: any) =>
             new ExampleController(component, entity, data));
 
     constructor(component: Component, entity: Entity, data: any) {
         super(component, entity, data);
     }
 
-    init(): void {
-    }
+    init(): void {}
 
-    update(data: any, oldData: any): void {
-    }
+    update(data: any, oldData: any): void {}
 
-    remove(): void {
-    }
+    remove(): void {}
 
-    pause(): void {
-    }
+    pause(): void {}
 
-    play(): void {
-    }
+    play(): void {}
 
-    tick(time: number, timeDelta: number): void {
-    }
+    tick(time: number, timeDelta: number): void {}
 
 }
 
