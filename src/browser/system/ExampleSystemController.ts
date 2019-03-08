@@ -1,6 +1,6 @@
 import {Scene, System} from "aframe";
 import {AbstractSystemController} from "./AbstractSystemController";
-import {SystemControllerDefinition} from "../index";
+import {SystemControllerDefinition} from "./SystemControllerDefinition";
 
 export class ExampleSystemController extends AbstractSystemController {
 

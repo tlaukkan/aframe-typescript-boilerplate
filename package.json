@@ -2,8 +2,8 @@
   "name": "aframe-typescript-boilerplate",
   "version": "0.0.1",
   "description": "AFrame Typescript Boilerplate",
-  "main": "built/src/index.js",
-  "types": "built/src/index.d.ts",
+  "main": "built/index.js",
+  "types": "built/index.d.ts",
   "scripts": {
     "test:node": "mocha --require ts-node/register --exit ./test/node/**/*.ts ./test/common/**/*.ts",
     "test:browser": "karma start karma.config.js",

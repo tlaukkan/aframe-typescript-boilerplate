@@ -1,6 +1,6 @@
 import {Component, Entity} from "aframe";
 import {AbstractComponentController} from "./AbstractComponentController";
-import {ComponentControllerDefinition} from "../index";
+import {ComponentControllerDefinition} from "./ComponentControllerDefinition";
 
 export class ExampleController extends AbstractComponentController {
 
